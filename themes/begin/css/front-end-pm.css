@@ -1,0 +1,113 @@
+/** 站内信 **/
+
+body {
+	font: 14px "Microsoft YaHei", Helvetica, Arial, Lucida Grande, Tahoma, sans-serif;
+	color: #444;
+	background: #fff;
+}
+
+#fep-header {
+	margin: 15px 0;
+	border: none;
+}
+
+#fep-header strong {
+	font-size: 16px;
+}
+
+#fep-header .avatar {
+	width: 74px;
+	height: 74px;
+	padding: 4px;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+}
+
+/** 按钮 **/
+#fep-menu .fep-button,.fep-button,.fep-button-active {
+	background: #fff;
+	font-size: 14px;
+	border: 1px solid #ddd;
+	padding: 5px 15px;
+	border-radius: 2px;
+}
+
+#fep-menu .fep-button:hover,.fep-button-active {
+	border: 1px solid #D3EEF5;
+}
+
+/** 选择菜单 **/
+.fep-message-table select {
+	background: #fff;
+	padding: 7px 10px;
+	border: 1px solid #ddd;
+}
+
+/** 列表头像 **/
+#fep-content .avatar {
+	float: left;
+	width: 32px;
+	height: auto;
+	margin: 0 15px 0 0;
+	padding: 2px;
+	border: 1px solid #ddd;
+}
+
+/** 列表 **/
+.fep-table-row {
+	padding: 10px !important;
+	border: 1px solid #ddd;
+	margin: 0 0 -1px 0;
+}
+
+#fep-content a {
+	color: #444;
+	text-decoration: none;
+}
+
+/** 未读 **/
+.fep-unread-class {
+	position: inherit;
+	margin: 0 0 0 5px;
+	padding: 0 5px;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 12px;
+	border-radius: 2px;
+	box-shadow: none;
+}
+/** 发信 **/
+#fep-content h2 {
+	margin: 0 0 15px 0;
+}
+
+.fep-field #fep-message-top, .fep-field #message_title {
+	background: #fff;
+	margin: 0 0 15px 0;
+	padding: 5px;
+	border: 1px solid #ddd;
+}
+
+#fep-content input[type=text] {
+	width: 100%;
+}
+
+#fep_upload input {
+	background: #fff;
+}
+
+/** 搜索 **/
+.fep-directory-search-form-div input {
+	background: #fff;
+	padding: 5px;
+	border: 1px solid #ddd;
+}
+
+.fep-directory-search-form-submit {
+	margin: 10px 0 0 0;
+	cursor: pointer;
+}
+/** 隐藏页脚 **/
+#fep-footer {
+	display: none;
+}

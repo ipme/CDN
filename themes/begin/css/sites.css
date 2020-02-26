@@ -1,0 +1,174 @@
+/*
+Theme Name: begin
+Description: ÍøÖ·ÑùÊ½
+*/
+#page .page {
+	padding: 0;
+	overflow: hidden;
+}
+
+.single-content {
+	margin-top: 0;
+}
+
+.single-content p {
+	text-indent: 0;
+	margin: 0;
+	text-align: center;
+}
+
+.aligncenter {
+	margin: 0 auto;
+}
+
+.favorites-top {
+	position: relative;
+	background: #fff;
+	margin: 0 0 10px 0;
+	padding: 10px;
+	border: 1px solid #ddd;
+	border-radius: 2px;
+}
+
+#sites-widget-one h3 {
+	background: #f8f8f8;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 20px;
+	border-bottom: 1px solid #ddd;
+}
+#sites-widget-one .widget-title i {
+	float: left;
+	width: auto;
+	height: auto;
+	font-size: 14px;
+	color: #444;
+	text-align: center;
+	margin: 0 5px 0 0;
+	padding: 0;
+	border-right: none;
+	border-radius: 0;
+}
+
+.favorites-title {
+	position: absolute;
+	font-size: 24px;
+	padding: 5px;
+	top: 20px;
+	left: 20px;
+}
+
+.sites-img {
+	padding: 2px;
+	border: 1px solid #ddd;
+}
+
+.rili {
+	float: left;
+	width: 50%;
+}
+
+.tianqi {
+	padding: 10px 5px;
+	overflow: hidden;
+}
+
+.top-date {
+	padding: 60px 0 10px 18px;
+}
+
+.sites-cats {
+	background: #f8f8f8;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 20px;
+	border-bottom: 1px solid #ddd;
+}
+
+.sites-cats h3 {
+	float: left;
+}
+
+.sites-more {
+	float: right;
+}
+
+.sites {
+	position: relative;
+	background: #fff;
+	margin: 0 0 10px 0;
+	padding: 0 0 5px 0;
+	border: 1px solid #ddd;
+	border-radius: 2px;
+}
+
+.sites-5, .sites-box {
+	padding: 10px 15px 5px 15px;
+}
+
+.sites-title, .sites-widget .menu-item, .archive-5 {
+	width: 20%;
+	float: left;
+	min-height: 1px;
+	padding: 4px;
+	transition-duration: .5s;
+}
+
+.sites-title a, .sites-widget .menu-item a, .sites-archive-title a {
+	width: 100%;
+	text-align: center;
+	display: block;
+	line-height: 230%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.sites-title-t {
+	padding: 0 5px;
+	border-radius: 2px;
+	border: 1px solid #ddd;
+}
+
+.sites-title-img a, .sites-archive-title-img {
+	text-align: center;
+}
+
+.sites-widget ul {
+	float: left;
+}
+
+@media screen and (max-width: 1080px) {
+	.sites-title, .sites-widget .menu-item, .archive-5 {
+		width: 25%;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.sites-title, .sites-widget .menu-item, .archive-5 {
+		width: 20%;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.sites-title, .sites-widget .menu-item, .archive-5 {
+		width: 25%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.sites-title, .sites-widget .menu-item, .archive-5 {
+		width: 33.333333333333%;
+	}
+	.rili {
+		width: 99%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.sites-title, .sites-widget .menu-item, .archive-5 {
+		width: 50%;
+	}
+}

@@ -1,0 +1,531 @@
+/*
+Theme Name: begin
+Description: woocommerce商城插件配套样式.
+*/
+
+/** 全局 **/
+.product {
+	position: relative;
+	background: #fff;
+	margin: 0 0 10px 0;
+	padding: 20px;
+	overflow: hidden;
+	border: 1px solid #ddd;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+	border-radius: 2px;
+}
+
+.woocommerce ul.products li.product {
+	padding: 0 0 10px 0;
+}
+
+.woocommerce span.onsale {
+/** 促销文字 **/
+	background: #ff4400;
+	top: 2em;
+	left: 2em;
+	font-weight: 500;
+	min-height: 3.236em;
+	min-width: 3.8em;
+	z-index: 2;
+}
+
+.tao-h-img .onsale {
+	position: absolute;
+	background: #ff4400;
+	top: 1em;
+	right: 1em;
+	font-size: 11px;
+	font-size: 1.1rem;
+	color: #fff;
+	text-align: center;
+	font-weight: 500;
+	min-height: 3.8em;
+	min-width: 3.8em;
+	border-radius: 100%;
+	line-height: 3.8em;
+	z-index: 2;
+}
+
+.line-tao h3 {
+	height: 30px;
+	line-height: 30px;
+	margin: 5px 10px;
+	padding: 0 5px;
+	white-space: nowrap;
+	word-wrap: normal;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+/** 产品列表 **/
+
+.woocommerce-ordering .orderby {
+	position: inherit;
+	background: #fff;
+	width: 140px;
+	margin: -24px 10px 0 0;
+	padding: 0 8px;
+	-webkit-appearance: none;
+	border: 1px solid #ddd;
+	/** display: none; **/
+}
+
+.woocommerce-result-count {
+	display: none;
+}
+
+.post-type-archive-product .breadcrumb, 
+.tax-product_cat .breadcrumb {
+	display: none;
+}
+
+.woocommerce-products-header {
+	float: left;
+	line-height: 35px;
+}
+
+.woocommerce .orderby {
+	margin: 2px 0 2px 0;
+}
+
+.woocommerce .woocommerce-ordering {
+	margin: 0 5px 0 0;
+}
+
+.woocommerce-ordering:before {
+	content: "\e89a";
+	font-family: be;
+	font-size: 15px !important;
+	color: #777;
+	line-height: 35px;
+}
+
+
+/** 列表样式 **/
+.woocommerce ul.products li.product h3 {
+	font-size: 1em;
+	margin: 0;
+	padding: 10px;
+	white-space: nowrap;
+	word-wrap: normal;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+h2.woocommerce-loop-product__title {
+	height: 30px;
+	line-height: 30px;
+	margin: 5px 10px;
+	padding: 0 10px !important;
+	white-space: nowrap;
+	word-wrap: normal;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.woocommerce ul.products li.product .price {
+	color: #ff4400;
+	font-size: 1em;
+	padding: 2px 0 0 15px;
+}
+
+.woocommerce ul.products li.product a img {
+	margin: 0;
+}
+
+.woocommerce #respond input#submit,.woocommerce a.button,.woocommerce button.button,.woocommerce input.button {
+	float: right;
+	border-radius: 2px;
+	color: #fff;
+	font-weight: 500;
+	background: #ff4400;
+	margin: 0 10px 10px 0;
+	-webkit-appearance: none;
+}
+
+.woocommerce #respond input#submit:hover,.woocommerce a.button:hover,.woocommerce button.button:hover,.woocommerce input.button:hover {
+	background: #ff662f;
+	color: #fff;
+}
+
+.wc-forward {
+	line-height: 30px;
+	border-radius: 2px;
+	color: #fff !important;
+	background: #7ab951;
+	margin: 0 0 0 20px;
+}
+
+.wc-forward:hover {
+	background: #89c662;
+	color: #fff;
+}
+
+.woocommerce a.added_to_cart {
+	padding: 4px 8px;
+}
+
+.woocommerce ul.products li.product .star-rating {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	color: #ff4400;
+}
+
+.woocommerce ul.products li.product .onsale {
+	top: 15px;
+	right: 15px;
+}
+
+/** 产品正文 **/
+.woocommerce-page #primary {
+	width: 100%;
+}
+
+.woocommerce-page #sidebar, .woocommerce-page .r-hide {
+	display: none;
+}
+
+.product_title {
+	font-size: 1.5em;
+}
+
+.woocommerce .star-rating span {
+	color: #ff4400;
+}
+
+.woocommerce div.product .woocommerce-product-rating {
+	margin: 10px 0 0 0;
+}
+
+.woocommerce  .comment span {
+	display: inline;
+}
+
+.woocommerce-page .single-content h2 {
+	border-left: none;
+	margin: 0 0 0 10px;
+	padding: 0;
+}
+
+.woocommerce button.button,.woocommerce input.button {
+	font-size: 90%;
+}
+
+.woocommerce-page #content table.cart td.actions .input-text {
+	background: #fff;
+	width: 90px;
+	height: 33px;
+	-webkit-appearance: none;
+}
+
+.woocommerce-additional-fields h3, 
+#order_review_heading {
+	padding: 0 0 0 25px;
+	border-left: none;
+}
+
+/** 价格 **/
+.summary .price {
+	margin: 20px 15px;
+	width: 100%;
+}
+
+.woocommerce div.product p.price del,.woocommerce div.product span.price del {
+	display: block;
+}
+
+.woocommerce div.product p.price ins,.woocommerce div.product span.price ins {
+	background: inherit;
+}
+
+.woocommerce div.product p.price,.woocommerce div.product span.price {
+	color: #ff4400;
+}
+/** 添加购物车 **/
+.woocommerce div.product form.cart::after, .woocommerce div.product form.cart::before, .woocommerce div.product p.cart::after, .woocommerce div.product p.cart::before {
+	margin: 15px 0;
+}
+/** 添加数量 **/
+.woocommerce .quantity .qty {
+	background: #fff;
+	margin: 0 10px 0 0
+	padding: 2px 8px;
+	-webkit-appearance: none;
+	border: 1px solid #ddd;
+}
+
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
+	background-color: #ff4400;
+	color: #fff;
+}
+
+.woocommerce #respond input#submit.alt:hover,.woocommerce a.button.alt:hover,.woocommerce button.button.alt:hover,.woocommerce input.button.alt:hover {
+	background-color: #ff662f;
+}
+
+.posted_in {
+	display: block;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li {
+	border-radius: 2px 2px 0 0;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li:after,.woocommerce div.product .woocommerce-tabs ul.tabs li:before {
+	content: none;
+}
+
+.related .product {
+	border: none;
+	box-shadow: none;
+}
+
+.woocommerce-message::before {
+	color: #ff4400;
+}
+
+.woocommerce-message {
+	background: #fff;
+	border: 1px solid #ddd;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+	border-radius: 2px;
+}
+
+.woocommerce #reviews #comments ol.commentlist li img.avatar {
+	background: #fff;
+	border: none;
+}
+
+.woocommerce #reviews #comments ol.commentlist li .comment-text {
+	border-radius: 2px;
+}
+
+#add_payment_method table.cart input, .woocommerce-cart table.cart input, .woocommerce-checkout table.cart input {
+	line-height: 1.5;
+}
+
+/** 购物车页面 **/
+.woocommerce-page th, .woocommerce-page td {
+	border: none;
+}
+
+.woocommerce table.shop_table {
+	border-radius: 2px;
+}
+
+#add_payment_method .wc-proceed-to-checkout a.checkout-button, .woocommerce-cart .wc-proceed-to-checkout a.checkout-button, .woocommerce-checkout .wc-proceed-to-checkout a.checkout-button {
+	font-size: 15px;
+	padding: 8px 12px;
+}
+
+.woocommerce-page .print,.woocommerce-page .views {
+	display: none;
+}
+
+.woocommerce .return-to-shop {
+	text-align: center;
+	margin: 0 0 50px 0;
+}
+
+/** 结算 **/
+.woocommerce form .form-row label, .woocommerce-page form .form-row label {
+	display: inline;
+}
+
+.woocommerce-billing-fields h3, .woocommerce-shipping-fields h3, .woocommerce-Addresses h3 {
+	border-left: none;
+	padding: 0 0 0 20px;
+}
+
+.woocommerce form .form-row .input-text, .woocommerce-page form .form-row .input-text {
+	background: #fff;
+	padding: 8px 12px;
+	-webkit-appearance: none;
+	border: 1px solid #ddd;
+}
+
+#customer_details ,site-main p, .woocommerce-MyAccount-content ,site-main p,
+.woocommerce ,site-main p, .woocommerce p {
+	text-indent: 0;
+}
+
+#payment ul li {
+	list-style: none;
+}
+
+#add_payment_method #payment, .woocommerce-cart #payment, .woocommerce-checkout #payment {
+	background: #fff;
+	border-radius: 2px;
+	border: 1px solid #ddd;
+}
+
+.woocommerce-info {
+	background: #fff;
+	border-radius: 2px;
+	border: 1px solid #ddd;
+}
+
+#add_payment_method #payment div.payment_box, .woocommerce-cart #payment div.payment_box, .woocommerce-checkout #payment div.payment_box {
+	background: #7ab951;
+	color: #fff;
+}
+
+#add_payment_method #payment div.payment_box::before, .woocommerce-cart #payment div.payment_box::before, .woocommerce-checkout #payment div.payment_box::before {
+	border-color: transparent transparent #7ab951;
+}
+/** 我的账户 **/
+
+.woocommerce-account .woocommerce-MyAccount-navigation {
+	width: 100%;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation ul {
+	float: left;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation ul li {
+	float: left;
+	list-style: none;
+	margin: 0 10px 10px 0;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation ul li a {
+	display: block;
+	color: #444;
+	width: 90px;
+	text-align: center;
+	padding: 2px 8px;
+	border-radius: 2px;
+	border: 1px solid #ddd;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation ul li a:hover {
+	background: #ff4400;
+	color: #fff;
+	border: 1px solid #ff4400;
+}
+
+.woocommerce-account .woocommerce-MyAccount-content {
+	float: right;
+	width: 100%;
+}
+
+.woocommerce-Address {
+	padding: 10px;
+	border: 1px dashed #ddd;
+}
+
+.woocommerce .order_details li {
+	border-right: 1px dashed #d3ced2;
+	float: left;
+	font-size: 0.715em;
+	line-height: 1;
+	list-style-type: none;
+	margin-left: 0;
+	margin-right: 2em;
+	padding-left: 0;
+	padding-right: 2em;
+	text-transform: uppercase;
+}
+
+.woocommerce form.checkout_coupon, .woocommerce form.login, .woocommerce form.register {
+	border-radius: 2px;
+}
+
+/** 小工具 **/
+.woocommerce ul.product_list_widget {
+	padding: 15px;
+}
+
+ul.product_list_widget li {
+	white-space: inherit;
+}
+
+.widget ul.product_list_widget li a {
+	font-weight: 500;
+}
+
+ul.product_list_widget li del, ul.product_list_widget li ins {
+	display: none;
+}
+
+.widget_product_search {
+	padding: 15px;
+}
+
+#woocommerce-product-search-field {
+	float: left;
+	width: 75%;
+	height: 37px;
+	line-height: 37px;
+	font: 14px "Microsoft YaHei", Helvetica;
+	color: #444;
+	padding: 2px 10px;
+	background: #ebebeb;
+	border: 1px solid #ebebeb;
+	border-radius: 2px 0 0 2px;
+	-webkit-appearance: none;
+}
+
+#woocommerce-product-search-field:focus {
+	outline: 0;
+	background: #fff;
+}
+
+.woocommerce-product-search input {
+	overflow: visible;
+	position: relative;
+	border: 0;
+	height: 37px;
+	width: 25%;
+	color: #fff;
+	background: #2f889a;
+	border-radius: 0 2px 2px 0;
+}
+
+.woocommerce-product-search input:hover {
+	background: #595959;
+}
+
+.woocommerce #respond .comment-form-author label,
+.woocommerce #respond .comment-form-email label,
+.woocommerce #respond .comment-form-comment label {
+	width: 100px;
+	z-index: 1;
+}
+
+.woocommerce #commentform .comment-form-author input, 
+.woocommerce #commentform .comment-form-email input{
+	background: #fff;
+	position: relative;
+	width: 300px;
+	height: 38px;
+	line-height: 38px;
+	margin: 0 10px 10px 0;
+	padding: 0 10px;
+	border: 1px solid #ddd;
+	display: block;
+	text-indent: 100px;
+}
+
+.woocommerce #respond input:focus, 
+.woocommerce #respond textarea:focus {
+	text-indent: 0;
+	z-index: 2;
+	border: 1px solid #2f889a;
+}
+
+.woocommerce .comment-form-comment label {
+	position: inherit !important;
+	margin: 0 0 -1px 0;
+}
+
+.woocommerce #respond input#submit {
+	width: 140px;
+}
+
+.woocommerce-Reviews .qaptcha {
+	float: right;
+}

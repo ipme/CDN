@@ -1,0 +1,387 @@
+/*
+Theme Name: begin
+Description: Easy Digital Downloads 付费下载插件配套样式.
+*/
+
+/** 全局 **/
+.type-download {
+	position: relative;
+	background: #fff;
+	margin: 0 0 10px 0;
+	padding: 20px;
+	border: 1px solid #ddd;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+	border-radius: 2px;
+}
+
+.edd_checkout_wrap p, .edd-page .single-content p {
+	text-indent: 0;
+}
+
+.edd-table th, .edd-table td {
+	padding: 10px 15px;
+}
+/** 下载正文 **/
+.edd-page #primary {
+	width: 100%;
+}
+
+.edd-page #sidebar, .edd-page .r-hide {
+	display: none;
+}
+
+.dow-goods {
+}
+
+.dow-inf {
+	float: left;
+	width: 261px;
+}
+
+.dow-meta span {
+	display: block;
+	padding: 4px 0;
+}
+
+.edd_price {
+	font-size: 26px;
+	color: #ff4400;
+	font-weight: 700;
+}
+
+.edd_tb {
+	font-size: 15px;
+	font-weight: normal;
+	margin: 0 10px 0 0;
+}
+
+.product-price ul li {
+	list-style: none;
+	margin: 0;
+}
+
+.dow-img {
+	float: left;
+	width: 261px;
+	height: 261px;
+	margin: 0 30px 30px 0;
+	overflow: hidden;
+	transition-duration: .3s;
+}
+
+.dow-img a img {
+	float: left;
+	height: auto;
+	max-width: 100%;
+	width: auto;
+	-webkit-transition: -webkit-transform .3s linear;
+	-moz-transition: -moz-transform .3s linear;
+	-o-transition: -o-transform .3s linear;
+	transition: transform .3s linear
+}
+
+.dow-img:hover a img {
+	transition: All 0.7s ease;
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+}
+
+@media screen and (max-width: 640px) {
+	.dow-img, .dow-inf {
+		float: inherit;
+		margin: 0 auto 0;
+	}
+}
+
+.edd-add-to-cart-label, .edd_go_to_checkout {
+	float: left;
+	background: #ff4400;
+	height: 35px;
+	color: #fff !important;
+	line-height: 35px;
+	text-align: center;
+	margin: 15px 0;
+	padding: 0 50px;
+	border: 1px solid #ff4400;
+	border-radius: 3px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.edd-add-to-cart-label:hover, .edd_go_to_checkout:hover {
+	background: #ff662f;
+	border: 1px solid #ff662f;
+	transition: all 0.3s ease-in 0s;
+}
+
+.edd-cart-added-alert {
+	float: left;
+	color: #fff;
+	width: 50%;
+	padding: 0 10px;
+	background: #91c24f;
+	border-radius: 3px;
+}
+
+/** 结算 **/
+
+#edd_checkout_cart_wrap table {
+	width: 100%;
+}
+
+#edd_checkout_wrap p {
+	padding-bottom: 0;
+	margin-bottom: 28px;
+	margin-bottom: 2.8rem;
+	text-indent: 0;
+}
+
+#edd_checkout_wrap #edd_checkout_cart th {
+	padding: 10px 15px;
+	background: #f9f9fa;
+}
+
+#edd_checkout_wrap input[type="text"],
+#edd_checkout_wrap input[type="email"],
+#edd_checkout_wrap input[type="password"],
+#edd_checkout_wrap input[type="tel"],
+#edd_checkout_wrap textarea {
+	width: 100%;
+	max-width: 100%;
+	padding: 10px;
+	display: block;
+	-webkit-appearance: none;
+	border: 1px solid #ddd;
+}
+
+#edd_checkout_wrap #edd_purchase_submit {
+	padding: 42px 0px;
+	padding: 4.2rem 0rem;
+	margin: 0;
+	font-size: 16px;
+	font-size: 1.6rem;
+	background-color: #f9f9fa;
+	text-align: center;
+}
+
+#edd_checkout_wrap span.edd-description {
+	float: left;
+	width: 100%;
+}
+
+.edd-required-indicator {
+	color: #ff0000;
+}
+
+#edd_checkout_wrap label {
+	font-weight: 700;
+	display: block;
+	padding-top: 0;
+	margin-bottom: 7px;
+	margin-bottom: 0.7rem;
+}
+
+#edd_checkout_wrap legend {
+	font-size: 16px;
+}
+
+#edd_purchase_form select {
+	padding: 2px 5px;
+	-webkit-appearance: none;
+	border: 1px solid #ddd;
+}
+
+#edd_checkout_form_wrap select.edd-select.edd-select-small {
+	border: 1px solid #ddd;
+	-webkit-appearance: none;
+	display: inline;
+	width: auto;
+}
+
+#edd_checkout_wrap #edd-purchase-button {
+	padding: 2px 25px;
+	margin: 0;
+	font-size: 18px;
+	font-size: 1.8rem;
+	text-align: center;
+	border: none;
+	background: #f40;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 3px;
+	-webkit-appearance: none;
+}
+/** 确认书 **/
+
+.edd-page table {
+	width: 100%;
+}
+
+.edd-page .single-content ul li {
+	list-style: none;
+	margin: 0;
+}
+/** 小工具 **/
+#widget_edd_cart ul {
+	padding: 10px;
+}
+
+.widget_edd_cart_widget .edd-cart-item,
+.widget_edd_cart_widget .edd-cart-meta {
+	margin: 0 0 10px;
+	padding: 5px;
+	border: 1px solid #ddd;
+}
+
+#widget_edd_cart ul li {
+	overflow: visible;
+	text-overflow: clip;
+	white-space: normal;
+}
+
+.edd-cart-number-of-items {
+	color: #666;
+	font-weight: 700;
+	padding: 10px;
+}
+
+.edd-remove-from-cart {
+	background: #f40;
+	color: #fff;
+	padding: 2px 10px;
+	border: 1px solid #f40;
+	border-radius: 3px;
+}
+
+.edd-remove-from-cart:hover {
+	color: #fff;
+	background: #91c24f;
+	border: 1px solid #91c24f;
+}
+
+.edd-cart-item-title {
+	color: #999;
+}
+
+.edd-cart-item-separator, .edd-cart-item-quantity, .edd-cart-item-separator {
+	display: none;
+}
+
+.edd-cart-item-price {
+	color: #f40;
+}
+
+.cart-total {
+	color: #f40;
+	font-weight: 700;
+}
+
+.widget_edd_cart_widget .edd_checkout a {
+	background: #f40;
+	color: #fff;
+	text-align: center;
+	display: block;
+	padding: 5px;
+	border-radius: 3px;
+	border: 1px solid #f40;
+}
+
+.widget_edd_cart_widget .edd_checkout a:hover {
+	color: #fff;
+	background: #ff662f;
+	border: 1px solid #ff662f;
+}
+
+.widget_edd_categories_tags_widget {
+	padding: 0 0 15px 0;
+}
+
+.widget_edd_categories_tags_widget ul li {
+	float: left;
+	width: 49.5% !important;
+	margin: 0 -3px -1px 2px;
+}
+
+.widget_edd_categories_tags_widget a {
+	text-align: center;
+	padding: 5px 0;
+	display: block;
+	border: 1px solid #ddd;
+}
+
+.widget_edd_categories_tags_widget a:hover {
+	background: #2f889a;
+	color: #fff !important;
+	border: 1px solid #2f889a;
+	transition: all 0.1s ease-in 0s;
+}
+
+/** 下载分类 **/
+#picture .type-download {
+	position: relative;
+	background: transparent;
+	margin: 0;
+	padding: 0;
+	border: none;
+	box-shadow: none;
+	border-radius: 0;
+}
+
+.edd-box {
+	background: #fff;
+	margin: 0 0 10px 0;
+	padding: 0px;
+	border: 1px solid #ddd;
+	border-radius: 2px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+.edd-box .picture-title {
+	text-align: left;
+	line-height: 30px;
+	margin: 10px;
+	white-space: nowrap;
+	word-wrap: normal;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+#picture {
+	margin: 0 -5px;
+}
+
+#picture .edd-download {
+	position: relative;
+	float: left;
+	width: 25%;
+	min-height: 1px;
+	padding: 0 5px;
+	transition-duration: .5s;
+}
+
+@media screen and (max-width:720px) {
+	#picture .edd-download {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width:340px) {
+	#picture .edd-download {
+		width: 100%;
+	}
+}
+
+/** 其它 **/
+#edd_purchase_form .edd-payment-icons img {
+	width: 100px;
+	height: auto;
+	border: 1px solid #ddd;
+}
+
+.edd_cart_item .edd_cart_item_image img {
+	float: left;
+	width: auto;
+	height: 50px;
+	margin: 0 10px 0 0;
+}

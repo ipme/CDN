@@ -1,0 +1,197 @@
+html,body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td {
+	margin: 0;
+	padding: 0
+}
+
+body,button,input,select,textarea {
+	font: 12px 'Microsoft Yahei','微软雅黑','宋体',Tahoma,Helvetica,Arial,sans-serif
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-size: 100%
+}
+
+address,cite,dfn,em,var,i {
+	font-style: normal
+}
+
+ul,ol,dl,li {
+	list-style: none
+}
+
+fieldset,img {
+	border: 0
+}
+
+button,input,select,textarea {
+	font-size: 100%
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+a {
+	color: #5e5e5e;
+	text-decoration: none
+}
+
+a:hover {
+	color: #ff6699;
+	text-decoration: underline
+}
+
+:focus {
+	outline: 0 none
+}
+
+.fl {
+	float: left;
+	display: inline
+}
+
+.fr {
+	float: right;
+	display: inline
+}
+
+.clear {
+	clear: both
+}
+
+.clear:after,.clear:before {
+	content: "";
+	display: table
+}
+
+.clear:after {
+	clear: both;
+	overflow: hidden
+}
+
+.clear {
+	zoom: 1;
+	clear: both
+}
+
+#form-table {
+	max-width: 550px;
+	margin: 0 auto
+}
+
+.form-table {
+	border-collapse: collapse;
+	margin-top: .5em;
+	width: 95%;
+	clear: both;
+	margin-left: 1rem;
+}
+
+.form-table,.form-table td,.form-table th,.form-table td p {
+	font-size: 14px
+}
+
+.form-table td {
+	margin-bottom: 9px;
+	padding: 6px 10px;
+	line-height: 1.3;
+	vertical-align: middle
+}
+
+.form-table th {
+	vertical-align: top;
+	text-align: left;
+	padding: 10px 10px 10px 0;
+	width: 200px;
+	line-height: 1.3;
+	font-weight: 600
+}
+
+.form-table input,.form-table textarea,.form-table select {
+	margin: 1px;
+	padding: 3px 5px
+}
+
+.form-table td p {
+	margin: 4px 0 0
+}
+
+.form-table img {
+	max-width: 200px;
+	max-height: 200px;
+	padding: 5px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #ececec;
+	display: table;
+	background-color: #f9f9f9
+}
+
+.submitbox {
+	padding: 8px 16px;
+	background: #fcfcfc;
+	border-top: 1px solid #dfdfdf;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0
+}
+
+.submitbox .submitdelete {
+	text-decoration: none;
+	padding: 1px 2px;
+	color: #a00
+}
+
+.submitbox .submitdelete:hover {
+	color: red
+}
+
+#wp-link-cancel {
+	line-height: 25px;
+	float: left
+}
+
+#wp-link-update {
+	line-height: 23px;
+	float: right
+}
+
+#wp-link-submit {
+	float: right;
+	margin-bottom: 0
+}
+
+.button-primary {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 13px;
+	line-height: 26px;
+	height: 28px;
+	margin: 0;
+	padding: 0 10px 1px;
+	cursor: pointer;
+	border-width: 1px;
+	border-style: solid;
+	-webkit-appearance: none;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	white-space: nowrap;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: #00a0d2;
+	border-color: #0073aa;
+	-webkit-box-shadow: inset 0 1px 0 rgba(120,200,230,.5),0 1px 0 rgba(0,0,0,.15);
+	box-shadow: inset 0 1px 0 rgba(120,200,230,.5),0 1px 0 rgba(0,0,0,.15);
+	color: #fff
+}
+
+.button-primary.focus,.button-primary.hover,.button-primary:focus,.button-primary:hover {
+	background: #0091cd;
+	border-color: #0073aa;
+	-webkit-box-shadow: inset 0 1px 0 rgba(120,200,230,.6);
+	box-shadow: inset 0 1px 0 rgba(120,200,230,.6);
+	color: #fff
+}

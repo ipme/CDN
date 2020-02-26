@@ -1,0 +1,421 @@
+.my-comment, .my-post {
+	margin: 30px 0;
+}
+/** 用户信息 **/
+#personal {
+	background: #fff;
+	border: 1px solid #ddd;
+	border-radius: 2px;
+	animation: fade-in;
+	animation-duration: 1.5s;
+	-webkit-animation: fade-in 1.5s;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+.m-personal {
+	position: relative;
+	overflow: hidden;
+	margin: 40px 0;
+	border-radius: 2px;
+}
+
+.personal-bg img {
+	float: left;
+}
+
+.m-personal p {
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	color: #ddd;
+}
+
+.m-img {
+	position: absolute;
+	top: 50px;
+	left: 50px;
+}
+
+.my-avatar img {
+	width: 74px;
+	height: 74px;
+	padding: 4px;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+}
+
+.m-name {
+	position: absolute;
+	top: 55px;
+	left: 150px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 30px;
+}
+
+.m-name span {
+	color: #ddd;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.m-logout a {
+	position: absolute;
+	top: 130px;
+	right: 20px;
+	color: #ddd;
+	line-height: 30px;
+	padding: 0 10px;
+	border-radius: 2px;
+	border: 1px solid #ddd;
+}
+
+.my-info {
+	min-height: 500px;
+	margin: 0 0 100px;
+}
+
+.my-info strong {
+	margin: 0 10px 0 0;
+}
+
+.my-info ul li {
+	float: left;
+	width: 33.333333333333333333%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+	padding: 12px 10px;
+	margin: 0 0 -1px -1px;
+	border: 1px solid #ddd;
+}
+/** 修改信息 **/
+input,
+select,
+textarea {
+	background: #fff;
+}
+
+#my-profile table, #my-profile th, #my-profile td {
+	border: none;
+}
+#my-profile {
+	width: 100%;
+}
+
+#my-profile td {
+	font-size: 14px;
+	padding: 5px;
+}
+
+#my-profile th {
+	font-size: 14px;
+	font-weight: normal;
+	padding: 15px 0;
+}
+
+#my-profile input, #my-profile select, #description {
+	padding: 5px 10px;
+	border: 1px solid #ddd;
+}
+
+#my-profile textarea {
+	width: 50%;
+}
+
+.upfile input {
+	background: #3690cf;
+	color: #fff;
+	margin: 40px 0 0 0;
+	cursor: pointer;
+	border: 1px solid #3690cf !important;
+	border-radius: 2px;
+	-webkit-appearance: none;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.upfile input:hover {
+	background: #666;
+	border: 1px solid #666 !important;
+	transition: all 0.2s ease-in 0s;
+}
+
+#user_login {
+	background: #f1f1f1;
+}
+
+.profileok, .profileerr {
+	float: left;
+	color: #3690cf;
+	padding: 5px;
+}
+
+.profileerr {
+	float: left;
+	color: #ff0000;
+	padding: 5px;
+}
+
+#my-profile .avatar {
+	width: 80px;
+	height: 80px;
+}
+
+#begin-local-avatar {
+	border: none !important;
+}
+
+@media only screen and (max-width: 600px) {
+	#my-profile {
+		width: 80%;
+	}
+
+	#my-profile input {
+		width: 90%;
+	}
+
+	#my-profile td {
+		float: left;
+		width: 100%;
+	}
+
+	#my-profile th {
+		float: left;
+	}
+
+	#my-profile textarea {
+		width: 100%;
+	}
+
+	#my-profile th {
+		padding: 0 0 0 5px;
+	}
+}
+
+/** 文章 **/
+.my-post thead td {
+	font-weight: 700;
+	text-align: center;
+}
+
+.my-post .tc {
+	text-align: center;
+}
+
+.my-comment li {
+	width: 99%;
+	line-height: 37px;
+	border-bottom: 1px dashed #dadada;
+}
+
+.m-number {
+	font-weight: normal;
+}
+
+.my-post table tr:nth-child(even) {
+	background: #f9f9f9;
+}
+
+.my-post thead tr:nth-child(odd) {
+	background: #f8f8f8;
+	line-height: 35px;
+}
+
+@media only screen and (max-width: 900px) {
+	.fj {
+		display: none;
+	}
+
+	.my-info ul li {
+		width: 100%;
+	}
+}
+
+/** 站内信 **/
+.front-pm {
+}
+/** 投稿 **/
+.m-tou, .my-comment, .my-post, .favorite-content {
+	min-height: 800px;
+}
+
+.m-tou p {
+	margin: 30px;
+}
+
+.m-tou a {
+	background: #3690cf;
+	color: #fff;
+	padding: 10px;
+	border-radius: 2px;
+	border: 1px solid #3690cf;
+}
+
+.m-tou a:hover {
+	background: #666;
+	border: 1px solid #666;
+	transition: all 0.2s ease-in 0s;
+}
+
+/** 收藏 **/
+.wpzm-span li {
+	line-height: 37px;
+	width: 99%;
+	border-bottom: 1px dashed #dadada;
+}
+
+.wpzm-link {
+	float: right;
+	color: #999;
+}
+
+.all-wpzm-link {
+	float: right;
+	margin: 10px 0;
+	padding: 5px 10px;
+	border-radius: 2px;
+	border: 1px solid #ddd;
+}
+
+.wpzm-span .navigation {
+	margin: 30px 0;
+}
+
+.wpzm-span .navigation a {
+	font-size: 16px;
+	font-size: 1.6rem;
+	padding: 6px 15px;
+	border-radius: 2px;
+	border: 1px solid #ddd;
+}
+
+.favorite-content {
+	margin: 30px 0;
+}
+/** tabs **/
+
+ul.resp-tabs-list {
+}
+
+.resp-tabs-container {
+	background: #fff;
+	clear: left;
+}
+
+h2.resp-accordion {
+	cursor: pointer;
+	padding: 5px;
+	display: none;
+}
+
+.resp-tab-content {
+	display: none;
+	padding: 15px;
+}
+
+h2.resp-tab-active {
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 0px !important;
+	padding: 10px 15px !important;
+}
+
+h2.resp-tab-active i, .resp-tab-active i {
+	color: #3690cf;
+}
+
+.resp-vtabs ul.resp-tabs-list {
+	float: left;
+	width: 15%;
+}
+
+.resp-vtabs .resp-tabs-list li {
+	float: left;
+	display: block;
+	padding: 15px 15px 15px 17px;
+	cursor: pointer;
+	float: none;
+	margin-top: -1px;
+	border-top: 1px solid #ddd;
+}
+
+.resp-vtabs .resp-tabs-container {
+	padding: 0;
+	background: #fff;
+	border-left: 1px solid #ddd;
+	float: left;
+	width: 85%;
+	min-height: 250px;
+	clear: none;
+}
+
+.resp-vtabs .resp-tab-content {
+	border: none;
+	word-wrap: break-word;
+}
+
+.resp-vtabs li.resp-tab-active {
+	position: relative;
+	z-index: 1;
+	margin: -1px -1px 0 -1px;
+	padding: 15px 15px 14px 16px;
+	border: 1px solid #ddd;
+	border-left: 2px solid #3690cf;
+	border-right: 1px solid #fff;
+}
+
+.resp-vtabs li.resp-tab-active a {
+	display: block;
+}
+
+.resp-accordion .be-arrowdown {
+	float: right;
+	margin-top: 8px;
+}
+
+
+.resp-tabs-container h2 {
+	font-weight: normal;
+}
+
+.resp-tab-item i, .resp-accordion i {
+	margin-right: 5px;
+}
+
+@media only screen and (max-width: 900px) {
+	h2.resp-accordion {
+		border-bottom: 1px solid #ddd;
+		padding: 10px 15px;
+	}
+
+	h2.resp-accordion:first-child {
+	}
+
+	ul.resp-tabs-list {
+		display: none;
+	}
+
+	h2.resp-accordion {
+		display: block;
+	}
+
+	.resp-vtabs .resp-tab-content {
+		border-bottom: 1px solid #ddd;
+	}
+
+	.resp-vtabs .resp-tabs-container {
+		border: none;
+		float: none;
+		width: 100%;
+		min-height: 100px;
+		clear: none;
+	}
+
+	.resp-accordion-closed {
+		display: none;
+	}
+
+	.resp-vtabs .resp-tab-content:last-child {
+		background: #fff;
+	}
+}

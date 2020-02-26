@@ -1,0 +1,1 @@
+<p class="front-pm"><iframe src="<?php echo get_permalink( zm_get_option('front_end_pm') ); ?>" width="100%" height="1200" frameborder="0"></iframe></p>
