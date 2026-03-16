@@ -196,13 +196,6 @@
     "priority": 28
   },
   {
-    "id": "dyttzyapi",
-    "name": "TV-电影天堂资源",
-    "baseUrl": "http://caiji.dyttzyapi.com/api.php/provide/vod",
-    "group": "normal",
-    "priority": 29
-  },
-  {
     "id": "bwzyz",
     "name": "AV-百万资源",
     "baseUrl": "https://api.bwzyz.com/api.php/provide/vod",
