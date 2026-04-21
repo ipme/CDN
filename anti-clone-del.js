@@ -1,8 +1,4 @@
 /**
- * 反镜像防御脚本 v1.1
- * 功能：检测域名，非法访问则跳转回正版站点
- * SEO友好：搜索引擎爬虫不执行JS；真实用户跳转回主站，增加流量权重
- * 兼容性：Chrome/Firefox/Safari/Edge/IE9+
  * 代码来源：https://wuqishi.com/anti-mirror-defense-guide/
  */
 (function() {
@@ -10,19 +6,13 @@
     
     // ==================== 配置区（必须修改） ====================
     var CONFIG = {
-        // 【重要】替换为你的域名编码：btoa('你的域名'.split('').reverse().join(''))
-        // 示例'wuqishi.com' → 'bW9jLmloc2lxdXc='（仅作参考，必须重新生成）
-        encodedHost: 'bW9jLmloc2lxdXc=',
-        
+        encodedHost: 'bW9jLnp6enRh',        
         // 允许的子域名（按需增删）
         allowedSubdomains: ['www', 'blog', 'cdn', 'img', 'static'],
-        
         // 跳转延迟（毫秒，确保alert先显示）
         redirectDelay: 200,
-        
         // 是否显示警告弹窗（true/false）
         showAlert: true,
-        
         // 跳转后是否携带原路径和参数
         keepPath: true,
         keepSearch: true,
