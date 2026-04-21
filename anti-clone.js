@@ -12,7 +12,7 @@
     var CONFIG = {
         // 【重要】替换为你的域名编码：btoa('你的域名'.split('').reverse().join(''))
         // 示例'wuqishi.com' → 'bW9jLmloc2lxdXc='（仅作参考，必须重新生成）
-        encodedHost: '【在此处粘贴你的编码】',
+        encodedHost: 'bW9jLmloc2lxdXc=',
         
         // 允许的子域名（按需增删）
         allowedSubdomains: ['www', 'blog', 'cdn', 'img', 'static'],
