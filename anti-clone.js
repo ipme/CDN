@@ -8,7 +8,7 @@
     var CONFIG = {
         encodedHost: [
             'bW9jLnp6enRh',
-            'Y29tc3JzcQ==',
+            'bW9jLnNzcnFx',
         ],        
         // 允许的子域名（按需增删）
         allowedSubdomains: ['www', 'blog', 'cdn', 'img', 'static'],
