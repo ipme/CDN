@@ -6,7 +6,10 @@
     
     // ==================== 配置区（必须修改） ====================
     var CONFIG = {
-        encodedHost: 'bW9jLnp6enRh',        
+        encodedHost: [
+            'bW9jLnp6enRh',
+            'Y29tc3JzcQ==',
+        ],        
         // 允许的子域名（按需增删）
         allowedSubdomains: ['www', 'blog', 'cdn', 'img', 'static'],
         // 跳转延迟（毫秒，确保alert先显示）
